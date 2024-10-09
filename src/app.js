@@ -69,6 +69,6 @@ app.get('*', (req, res) => {
         errorMessage: 'Page not found'
     })
 })
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('Server is up')
 })
