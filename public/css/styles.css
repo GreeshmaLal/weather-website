@@ -1,0 +1,81 @@
+html {
+    background-color: black;
+}
+
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    color: #888888;
+    padding: 16px 0;
+    margin-top: 16px;
+    border-top: 1px solid #eeeeee
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+    ;
+}
+
+.portrait {
+    width: 250px;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+input {
+    padding: 10px;
+    border-radius: 6%;
+    text-transform: capitalize;
+}
+
+button {
+    padding: 10px 16px;
+    border-radius: 14%;
+    cursor: pointer;
+    background-color: #888888;
+}
+
+#messageOne {
+    color: #9497dc;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+#messageTwo {
+    color: #9497dc;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+p {
+    padding-top: 10px;
+}
+
+.img-content {
+    display: flex;
+    gap: 12px;
+
+}
