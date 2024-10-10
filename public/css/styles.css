@@ -72,11 +72,14 @@ button {
 
 p {
     padding-top: 10px;
-    color:#eeeeee !important;
+   
 }
 
 .img-content {
     display: flex;
     gap: 12px;
 
+}
+.clr{
+    color:#eeeeee;
 }
