@@ -11,9 +11,9 @@ const forecast = (lat, long, callback) => {
         }
         else {
             const data = body.current
-            const {weather_descriptions,temperature,feelslike,weather_icons} = data 
+            const {weather_descriptions,temperature,feelslike,weather_icons,humidity} = data 
             callback(undefined,{icon:weather_icons[0]},
-                `${weather_descriptions[0]} . Its is currently ${temperature} degrees out.It feels like ${feelslike} degrees out at ${body.location.region}`
+                `${weather_descriptions[0]} . Its is currently ${temperature} degrees out.It feels like ${feelslike} degrees out at ${body.location.region} . The humidity is ${humidity}%.`
 
 
             )

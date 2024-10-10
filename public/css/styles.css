@@ -72,7 +72,7 @@ button {
 
 p {
     padding-top: 10px;
-    color:#eeeeee;
+    color:#eeeeee !important;
 }
 
 .img-content {
